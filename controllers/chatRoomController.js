@@ -8,7 +8,7 @@ exports.createRoom = async ({
   email,
 }) => {
   try {
-    const rooms = await ChatRoom.find();
+    const rooms = await ChatRoom.find().sort('-createdAt');
     const filteredRoom = rooms.filter((room) => room.roomId === roomId);
 
     if (!filteredRoom.length) {
@@ -27,7 +27,7 @@ exports.createRoom = async ({
 
 exports.getPublicRooms = async (req, res) => {
   try {
-    const rooms = await ChatRoom.find({ visibility: true });
+    const rooms = await ChatRoom.find({ visibility: true }).sort('-createdAt');
     res.status(200).json({ rooms });
   } catch (error) {
     res.status(400).json({ error: 'something went wrong' });

@@ -1,0 +1,52 @@
+{
+  "rooms": [
+    {
+      "id": "_z9nmu445",
+      "roomId": "f1e43249-589f-4740-8527-66a14bdbe749",
+      "visibility": "true",
+      "admin": "Riyaah",
+      "password": "test",
+      "email": "testriyah@gmail.com"
+    },
+    {
+      "id": "exmwu_w6t",
+      "roomId": "56dff98c-d60f-47fc-8600-1818561fc8cf",
+      "visibility": "false",
+      "admin": "Riyaah",
+      "password": "test",
+      "email": "testriyah@gmail.com"
+    },
+    {
+      "id": "bsxvybjk9",
+      "roomId": "f15ce1ca-7eb3-4ca4-a6bc-a6937995ce84",
+      "visibility": "false",
+      "admin": "Ajay yadav",
+      "password": "dnjksdsd",
+      "email": "aju@gmail.com"
+    },
+    {
+      "id": "bzdur83rw",
+      "roomId": "956c2e78-33df-48ec-b461-1e66ae89105d",
+      "visibility": "true",
+      "admin": "Ajay yadav",
+      "password": "dnjksdsd",
+      "email": "aju@gmail.com"
+    },
+    {
+      "id": "xlpiz7go5",
+      "roomId": "4c0aa707-40af-416e-af34-0db65d86682c",
+      "visibility": "true",
+      "admin": "Ajay yadav",
+      "password": "dnjksdsd",
+      "email": "aju@gmail.com"
+    },
+    {
+      "id": "vuyrrinqo",
+      "roomId": "59a82d39-383c-4c3a-ab56-66a39a92442a",
+      "visibility": "true",
+      "admin": "Lucky",
+      "password": "hiyaaa",
+      "email": "lucky@gmail.com"
+    }
+  ]
+}

@@ -17,8 +17,9 @@ app.use(cors());
 
 const io = socketIo(server, {
   cors: {
-    origin: [process.env.CLIENT],
+    origin: process.env.CLIENT,
     methods: ['GET', 'POST', 'DELETE'],
+    credentials: true,
   },
 });
 

@@ -25,6 +25,15 @@ exports.createRoom = async ({
   }
 };
 
+exports.deleteRoom = async (req, res) => {
+  try {
+    await ChatRoom.findByIdAndDelete(req.params.id);
+    res.status(204);
+  } catch (error) {
+    res.status(404).json({ error: 'something went wrong' });
+  }
+};
+
 exports.getPublicRooms = async (req, res) => {
   try {
     const rooms = await ChatRoom.find({ visibility: true }).sort('-createdAt');
